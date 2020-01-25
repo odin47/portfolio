@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--secondary);
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+header {
+  position: fixed;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background: var(--primary);
+}
+
+header #header-left {
+  flex: 2;
+}
+
+header #header-left   span {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--secondary);
+    margin-left: 70px;
+  }
+
+header nav {
+  flex: 1;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+header nav ul li {
+    flex: 1;
+    line-height: 4;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+#hero-container{
+    text-align: center;
+    color: var(--primary);
+    height: 100vh;
+}
+
+.hero-section {
+    position: absolute;
+    width: 100%;
+    top: 350px;
+}
+
+#skills-container {
+    height: auto;
+    background: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+}
+
+#skills-container ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#skills-container ul li {
+  padding: 10px;
+}

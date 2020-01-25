@@ -1,3 +1,16 @@
-import React from "react"
+import React from 'react'
+import Layout from '../components/Layout';
+import Hero from '../components/Hero';
+import Skills from '../components/Skills';
 
-export default () => <div>Hello world!</div>
+const index = () => {
+    return (
+        <Layout>
+            <Hero />
+            <Skills />
+        </Layout>
+    )
+}
+
+export default index;
+
