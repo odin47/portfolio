@@ -71,8 +71,12 @@ header nav ul li {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #skills-container ul li {
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
 }
