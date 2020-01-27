@@ -80,3 +80,26 @@ header nav ul li {
   flex-direction: row;
   display: inline-block;
 }
+
+#education {
+  color: var(--primary);
+  text-align: center;
+}
+
+#education-container {
+  height: auto;
+  padding: 10px;
+  background: var(--secondary);
+  color: var(--primary);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(500px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.portlet-container {
+  padding: 10px;
+  background: var(--primary);
+  color: var(--secondary);
+}
